@@ -1,0 +1,23 @@
+{
+  "name": "calculadora-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test-jasmine": "jasmine",
+    "test-dev": "karma start",
+    "test": "./node_modules/.bin/karma start --single-run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^17.0.0",
+    "jasmine": "^3.7.0",
+    "karma": "^6.3.2",
+    "karma-browserify": "^8.0.0",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-jasmine": "^4.0.1",
+    "watchify": "^4.0.0"
+  }
+}
