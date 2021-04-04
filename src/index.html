@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Calculadora</title>
     <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/calculadora.css">
+    <link rel="stylesheet" href="./css/calculadora.css">
   </head>
   <body>
     <div class="container-fluid">
@@ -15,87 +15,87 @@
                 <br />
                 <div class="text-center bg-primary img-rounded">
                     <br />
-                    <form class="form-inline">
-                        <div class="form-group">
+                    <form class="form-inline  mb-2 mr-2 ml-2">
+                        <div class="form-group mb-2 mr-2 ml-2">
                             <button
                                 type="button"
-                                class="btn btn-danger kz-btn"
+                                class="btn btn-danger kz-btn  mb-2 mr-2 ml-2"
                                 onclick="limpar()">C</button>
                             <input
                                 type="text"
-                                class="form-control text-right kz-input-text"
+                                class="form-control text-right kz-input-text  mb-2 mr-2 ml-2"
                                 value="0"
                                 id="resultado"
                                 readonly>
                         </div>
-                        <div class="form-group">
+                        <div class="form-group  mb-2 mr-2 ml-2">
                             <button
                                 type="button"
-                                class="btn btn-default kz-btn"
+                                class="btn btn-light kz-btn mb-2 mr-2 ml-2"
                                 onclick="adicionarNumero(7)">7</button>
                             <button
                                 type="button"
-                                class="btn btn-default kz-btn"
+                                class="btn btn-light kz-btn mb-2 mr-2 ml-2"
                                 onclick="adicionarNumero(8)">8</button>
                             <button
                                 type="button"
-                                class="btn btn-default kz-btn"
+                                class="btn btn-light kz-btn mb-2 mr-2 ml-2"
                                 onclick="adicionarNumero(9)">9</button>
                             <button
-                                type="button" class="btn btn-warning kz-btn" onclick="definirOperacao('/')">/</button>
+                                type="button" class="btn btn-warning kz-btn mb-2 mr-2 ml-2" onclick="definirOperacao('/')">/</button>
                         </div>
-                        <div class="form-group">
+                        <div class="form-group  mb-2 mr-2 ml-2">
                             <button
                                 type="button"
-                                class="btn btn-default kz-btn"
+                                class="btn btn-light kz-btn mb-2 mr-2 ml-2"
                                 onclick="adicionarNumero(4)">4</button>
                             <button
                                 type="button"
-                                class="btn btn-default kz-btn"
+                                class="btn btn-light kz-btn mb-2 mr-2 ml-2"
                                 onclick="adicionarNumero(5)">5</button>
                             <button
                                 type="button"
-                                class="btn btn-default kz-btn"
+                                class="btn btn-light kz-btn mb-2 mr-2 ml-2"
                                 onclick="adicionarNumero(6)">6</button>
                             <button
                                 type="button"
-                                class="btn btn-warning kz-btn"
+                                class="btn btn-warning kz-btn mb-2 mr-2 ml-2"
                                 onclick="definirOperacao('*')">*</button>
                         </div>
-                        <div class="form-group">
+                        <div class="form-group  mb-2 mr-2 ml-2">
                             <button
                                 type="button"
-                                class="btn btn-default kz-btn"
+                                class="btn btn-light kz-btn mb-2 mr-2 ml-2"
                                 onclick="adicionarNumero(1)">1</button>
                             <button
                                 type="button"
-                                class="btn btn-default kz-btn"
+                                class="btn btn-light kz-btn mb-2 mr-2 ml-2"
                                 onclick="adicionarNumero(2)">2</button>
                             <button
                                 type="button"
-                                class="btn btn-default kz-btn"
+                                class="btn btn-light kz-btn mb-2 mr-2 ml-2"
                                 onclick="adicionarNumero(3)">3</button>
                             <button
                                 type="button"
-                                class="btn btn-warning kz-btn"
+                                class="btn btn-warning kz-btn mb-2 mr-2 ml-2"
                                 onclick="definirOperacao('-')">-</button>
                         </div>
-                        <div class="form-group">
+                        <div class="form-group  mb-2 mr-2 ml-2">
                             <button
                                 type="button"
-                                class="btn btn-default kz-btn"
+                                class="btn btn-light kz-btn mb-2 mr-2 ml-2"
                                 onclick="adicionarNumero(0)">0</button>
                             <button
                                 type="button"
-                                class="btn btn-default kz-btn"
+                                class="btn btn-light kz-btn mb-2 mr-2 ml-2"
                                 onclick="adicionarNumero('.')">.</button>
                             <button
                                 type="button"
-                                class="btn btn-success kz-btn"
+                                class="btn btn-success kz-btn mb-2 mr-2 ml-2"
                                 onclick="calcular()">=</button>
                             <button
                                 type="button"
-                                class="btn btn-warning kz-btn"
+                                class="btn btn-warning kz-btn mb-2 mr-2 ml-2"
                                 onclick="definirOperacao('+')">+</button>
                         </div>
                     </form>
